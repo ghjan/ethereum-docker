@@ -15,7 +15,7 @@
   "gasLimit": "0x8000000",
   "alloc": {
     "0x01129ca6718b2f8484f1f5912cf98a5eddbf95c9": {
-      "balance": "1000"
+      "balance": "900000000000000000000"
     },
     "0xe6ae22abd31302bf1e1649a969d16ad84537b97d": {
       "balance": "0"
