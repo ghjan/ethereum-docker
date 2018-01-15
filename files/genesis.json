@@ -14,5 +14,14 @@
   "extraData": "0x",
   "gasLimit": "0x8000000",
   "alloc": {
+    "0x01129ca6718b2f8484f1f5912cf98a5eddbf95c9": {
+      "balance": "1000"
+    },
+    "0xe6ae22abd31302bf1e1649a969d16ad84537b97d": {
+      "balance": "0"
+    },
+    "0x0ce958b77b2021ead98cb505c50b8a906beae08f": {
+      "balance": "0"
+    }
   }
 }
