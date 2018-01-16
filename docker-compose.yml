@@ -1,7 +1,7 @@
 version: '2'
 services:
   bootstrap:
-    image: cajan2/monitored-geth-client:release-1.7
+    image: cajan2/monitored-geth-client:alltools-release-1.7
     restart: on-failure
     container_name: bootstrap
     hostname: bootstrap
@@ -19,7 +19,7 @@ services:
       - "30303:30303/udp"
       - "8545:8545"
   eth:
-    image: cajan2/monitored-geth-client:release-1.7
+    image: cajan2/monitored-geth-client:alltools-release-1.7
     restart: on-failure
     links:
       - bootstrap

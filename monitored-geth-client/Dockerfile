@@ -1,4 +1,4 @@
-FROM ethereum/client-go:release-1.7
+FROM ethereum/client-go:alltools-release-1.7
 
 RUN apk add --update git bash nodejs nodejs-npm perl
 
@@ -13,5 +13,3 @@ ADD app.json /root/eth-net-intelligence-api/app.json
 RUN chmod +x /root/start.sh
 
 ENTRYPOINT /root/start.sh
-
-RUN apk add --update swarm
