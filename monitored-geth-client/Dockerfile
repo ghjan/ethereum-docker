@@ -13,3 +13,5 @@ ADD app.json /root/eth-net-intelligence-api/app.json
 RUN chmod +x /root/start.sh
 
 ENTRYPOINT /root/start.sh
+
+RUN apk add --update swarm
